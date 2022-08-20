@@ -161,8 +161,8 @@
 <fusionsync huburn="a.YnVzaW5lc3M6b2Zicm9va2x5bg" projecturn="a.YnVzaW5lc3M6b2Zicm9va2x5biMyMDIwMTAwMTMzODU2MDI1Ng" f3durn="urn:adsk.wipprod:dm.lineage:hXMIRU8zTouxHumEHYtLwg" pcbguid="" lastpulledtime="2020-10-19T19:53:36Z" lastsyncedchangeguid="" latestrevisionid="2cab605c-ff0e-4758-a60a-1f9ac1ab2252" lastsyncedrevisionid="2cab605c-ff0e-4758-a60a-1f9ac1ab2252" lastboardhashguid="16d225a2-b8a0-5d47-a770-6431c6796998" lastpushedtime="2022-03-02T22:39:47Z" linktopcb3d="true"/>
 <plain>
 <text x="40.005" y="21.59" size="1.016" layer="21" rot="R180">NRF</text>
-<text x="26.035" y="4.445" size="0.8128" layer="21">-</text>
-<text x="23.0505" y="4.47675" size="0.8128" layer="21">+</text>
+<text x="23.14575" y="4.318" size="0.8128" layer="21">-</text>
+<text x="25.87625" y="4.318" size="0.8128" layer="21">+</text>
 <text x="26.9875" y="0.9525" size="0.8128" layer="21">-</text>
 <text x="25.7175" y="20.0025" size="1.27" layer="22" rot="MR270" align="center">Wedding Swarm Lights
 10/08/2022
@@ -183,17 +183,17 @@
 <wire x1="19.1543" y1="38.7985" x2="18.9654" y2="38.7925" width="0.2032" layer="20"/>
 <wire x1="18.9654" y1="38.7925" x2="17.145" y2="36.6327" width="0.2032" layer="20" curve="84.9993"/>
 <text x="37.7825" y="28.575" size="0.762" layer="21" rot="R270" align="center">10ten20twenty.com</text>
-<text x="32.893" y="5.5245" size="1.016" layer="21" rot="R180">D</text>
-<text x="30.63875" y="5.49275" size="1.016" layer="21" rot="R180">5V</text>
-<text x="36.576" y="5.588" size="1.016" layer="21" rot="R180">GND</text>
+<text x="32.5755" y="5.5245" size="1.016" layer="21" rot="R180">D</text>
+<text x="35.65525" y="5.30225" size="1.016" layer="21" rot="R180">5V</text>
+<text x="30.9245" y="5.30225" size="1.016" layer="21" rot="R180">GND</text>
 <text x="35.2425" y="20.0025" size="1.778" layer="22" rot="MR90" align="center">Brittany Janis
 +
 Samuel Clay</text>
-<text x="26.3525" y="4.445" size="0.8128" layer="22" rot="MR0">-</text>
-<text x="23.368" y="4.47675" size="0.8128" layer="22" rot="MR0">+</text>
-<text x="28.73375" y="5.49275" size="1.016" layer="22" rot="MR180">5V</text>
-<text x="31.623" y="5.5245" size="1.016" layer="22" rot="MR180">D</text>
-<text x="33.401" y="5.588" size="1.016" layer="22" rot="MR180">GND</text>
+<text x="23.749" y="4.318" size="0.8128" layer="22" rot="MR0">-</text>
+<text x="26.44775" y="4.318" size="0.8128" layer="22" rot="MR0">+</text>
+<text x="33.55975" y="5.2705" size="1.016" layer="22" rot="MR180">5V</text>
+<text x="31.369" y="5.55625" size="1.016" layer="22" rot="MR180">D</text>
+<text x="27.84475" y="5.2705" size="1.016" layer="22" rot="MR180">GND</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1017,9 +1017,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="TP_SIGNAL_NAME" value="" x="34.51225" y="8.47725" size="1" layer="37"/>
 <attribute name="VALUE" x="34.51225" y="9.62025" size="0.0254" layer="27"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03_LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38065/1" value="" x="34.6075" y="2.54" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="S1111EC-03-ND" x="34.6075" y="2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="32.7025" y="7.239" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03_LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38065/1" value="" x="29.464" y="2.50825" smashed="yes" rot="MR180">
+<attribute name="DIGIKEY" value="S1111EC-03-ND" x="29.464" y="2.50825" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="31.369" y="7.20725" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180"/>
 </element>
 <element name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPSB1,27" x="20.0025" y="26.3525" smashed="yes">
 <attribute name="NAME" x="19.05" y="27.051" size="0.6096" layer="25" ratio="10"/>
@@ -1053,10 +1053,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="22.19325" y="34.925" size="0.6096" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="22.25675" y="34.2265" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="S2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TACT_PANA-EVQ" package3d_urn="urn:adsk.eagle:package:6240957/1" value="TL1105" x="30.1625" y="6.985" smashed="yes">
-<attribute name="DIGIKEY" value="EG2506-ND" x="30.1625" y="6.985" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.1625" y="10.287" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="30.1625" y="3.81" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="S2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TACT_PANA-EVQ" package3d_urn="urn:adsk.eagle:package:6240957/1" value="TL1105" x="30.1625" y="7.62" smashed="yes">
+<attribute name="DIGIKEY" value="EG2506-ND" x="30.1625" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="30.1625" y="10.922" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="30.1625" y="4.445" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k" x="20.32" y="7.3025" smashed="yes">
 <attribute name="DIGIKEY" value="RNCP0603FTD1K00CT-ND" x="20.32" y="7.3025" size="1.778" layer="27" display="off"/>
@@ -1070,9 +1070,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="RES-07856" x="21.9075" y="20.6375" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.9075" y="19.8755" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02_LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38047/1" value="" x="23.1775" y="2.54" smashed="yes">
-<attribute name="NAME" x="21.9075" y="4.191" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="21.9075" y="0.254" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02_LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38047/1" value="" x="26.035" y="2.54" smashed="yes" rot="MR0">
+<attribute name="NAME" x="27.305" y="4.191" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0"/>
+<attribute name="VALUE" x="27.305" y="0.254" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="S4" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="SWITCH_SPDT_PTH_11.6X4.0MM" package3d_urn="urn:adsk.eagle:package:40177/1" value="" x="30.7975" y="36.195" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.7975" y="38.608" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -1131,15 +1131,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="33.7185" y1="32.258" x2="33.7185" y2="33.528" width="0" layer="19" extent="1-1"/>
 <wire x1="33.7185" y1="30.988" x2="33.7185" y2="32.258" width="0" layer="19" extent="1-1"/>
 <wire x1="33.7185" y1="29.718" x2="33.7185" y2="30.988" width="0" layer="19" extent="1-1"/>
-<wire x1="26.9125" y1="6.985" x2="33.7185" y2="29.718" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="23.23" x2="26.9125" y2="6.985" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="23.23" x2="33.7185" y2="29.718" width="0" layer="19" extent="1-1"/>
 <wire x1="25.24125" y1="24.78575" x2="31.75" y2="23.23" width="0" layer="19" extent="1-1"/>
+<wire x1="25.50675" y1="31.0515" x2="25.24125" y2="24.78575" width="0" layer="19" extent="1-1"/>
 <wire x1="24.119" y1="16.98625" x2="25.24125" y2="24.78575" width="0" layer="19" extent="1-1"/>
 <wire x1="19.6875" y1="14.14" x2="24.119" y2="16.98625" width="0" layer="19" extent="1-1"/>
-<wire x1="25.50675" y1="31.0515" x2="19.6875" y2="14.14" width="0" layer="19" extent="1-1"/>
 <wire x1="18.6468" y1="12.292" x2="19.6875" y2="14.14" width="0" layer="19" extent="1-1"/>
 <wire x1="18.6468" y1="10.468" x2="18.6468" y2="12.292" width="0" layer="19" extent="1-1"/>
-<wire x1="22.0932" y1="11.684" x2="18.6468" y2="12.292" width="0" layer="19" extent="1-1"/>
+<wire x1="22.0932" y1="11.684" x2="19.6875" y2="14.14" width="0" layer="19" extent="1-1"/>
 <wire x1="24.1825" y1="11.2395" x2="22.0932" y2="11.684" width="0" layer="19" extent="1-1"/>
 <wire x1="28.39175" y1="10.38225" x2="24.1825" y2="11.2395" width="0" layer="19" extent="1-1"/>
 <wire x1="28.9274" y1="13.1191" x2="28.39175" y2="10.38225" width="0" layer="19" extent="1-1"/>
@@ -1150,8 +1149,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="31.3404" y1="13.1191" x2="30.5276" y2="13.1191" width="0" layer="19" extent="1-1"/>
 <wire x1="31.3404" y1="13.9065" x2="31.3404" y2="13.1191" width="0" layer="19" extent="1-1"/>
 <wire x1="34.5408" y1="13.9065" x2="31.3404" y2="13.9065" width="0" layer="19" extent="1-1"/>
-<wire x1="25.8445" y1="2.54" x2="18.6468" y2="10.468" width="0" layer="19" extent="1-1"/>
-<wire x1="34.6075" y1="2.54" x2="28.39175" y2="10.38225" width="0" layer="19" extent="1-1"/>
+<wire x1="26.9125" y1="7.62" x2="28.39175" y2="10.38225" width="0" layer="19" extent="1-1"/>
+<wire x1="23.368" y1="2.54" x2="26.9125" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="29.464" y1="2.50825" x2="26.9125" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="U3" pad="B4"/>
@@ -1182,12 +1182,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="STRIP_5V">
 <contactref element="U5" pad="6_1Y"/>
 <contactref element="J1" pad="2"/>
-<wire x1="32.0675" y1="2.794" x2="22.0932" y2="11.076" width="0" layer="19" extent="1-1"/>
+<wire x1="22.0932" y1="11.076" x2="32.004" y2="2.76225" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="J1" pad="3"/>
 <contactref element="U5" pad="8_VCC"/>
-<wire x1="29.5275" y1="2.54" x2="22.0932" y2="12.292" width="0" layer="19" extent="1-1"/>
+<wire x1="22.0932" y1="12.292" x2="34.544" y2="2.50825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STRIP_3V3">
 <contactref element="TP5" pad="TP"/>
@@ -1238,7 +1238,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="VBAT_RAW">
 <contactref element="J2" pad="1"/>
 <contactref element="S4" pad="2"/>
-<wire x1="23.0505" y1="2.54" x2="30.7975" y2="36.195" width="0" layer="19" extent="1-1"/>
+<wire x1="26.162" y1="2.54" x2="30.7975" y2="36.195" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HEADLAMP_3V3">
 <contactref element="U3" pad="D7"/>
@@ -1306,7 +1306,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="SWITCH_2">
 <contactref element="U3" pad="B7"/>
 <contactref element="S2" pad="P$2"/>
-<wire x1="28.9274" y1="17.9197" x2="33.4125" y2="6.985" width="0" layer="19" extent="1-1"/>
+<wire x1="28.9274" y1="17.9197" x2="33.4125" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

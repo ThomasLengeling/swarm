@@ -982,7 +982,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="30.861" y="24.13" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPSB1,27" x="32.385" y="10.4775" smashed="yes">
-<attribute name="NAME" x="33.147" y="10.38225" size="0.6096" layer="25"/>
+<attribute name="NAME" x="31.5595" y="9.11225" size="0.6096" layer="25"/>
 <attribute name="POPULARITY" value="0" x="32.385" y="10.4775" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="32.385" y="10.4775" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="32.385" y="10.3505" size="0.0254" layer="27"/>
@@ -1001,7 +1001,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C19" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="4.7uF" x="29.24175" y="10.38225" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="399-3482-1-ND" x="29.24175" y="10.38225" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="28.67025" y="11.58875" size="0.6096" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="28.6385" y="11.65225" size="0.6096" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08280" x="29.24175" y="10.38225" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="29.24175" y="11.14425" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
@@ -1012,7 +1012,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="24.35225" y="25.68575" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPSB1,27" x="35.14725" y="10.38225" smashed="yes">
-<attribute name="NAME" x="34.417" y="11.1125" size="0.6096" layer="25" ratio="10"/>
+<attribute name="NAME" x="34.7345" y="8.89" size="0.6096" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="0" x="31.97225" y="8.79475" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="34.51225" y="8.47725" size="1" layer="37"/>
 <attribute name="VALUE" x="34.51225" y="9.62025" size="0.0254" layer="27"/>
@@ -1055,18 +1055,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="S2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TACT_PANA-EVQ" package3d_urn="urn:adsk.eagle:package:6240957/1" value="TL1105" x="30.1625" y="7.62" smashed="yes">
 <attribute name="DIGIKEY" value="EG2506-ND" x="30.1625" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.1625" y="10.922" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="30.1625" y="7.4295" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="30.1625" y="4.445" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k" x="20.32" y="7.3025" smashed="yes">
 <attribute name="DIGIKEY" value="RNCP0603FTD1K00CT-ND" x="20.32" y="7.3025" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.32" y="8.0645" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="20.32" y="8.0645" size="0.6096" layer="25" font="vector" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07856" x="20.32" y="7.3025" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="20.32" y="6.5405" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k" x="21.9075" y="20.6375" smashed="yes">
 <attribute name="DIGIKEY" value="RNCP0603FTD1K00CT-ND" x="21.9075" y="20.6375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.9075" y="21.3995" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="21.9075" y="21.3995" size="0.6096" layer="25" font="vector" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07856" x="21.9075" y="20.6375" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.9075" y="19.8755" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
