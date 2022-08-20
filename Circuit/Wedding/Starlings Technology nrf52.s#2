@@ -2413,34 +2413,6 @@ part number 2062-2P from STA</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="JST_2MM_MALE" urn="urn:adsk.eagle:symbol:37934/1" library_version="1">
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="1.778" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.778" x2="-2.54" y2="3.302" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.302" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="3.302" width="0.254" layer="94"/>
-<wire x1="5.08" y1="3.302" x2="5.08" y2="1.778" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.778" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="4.064" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="4.064" y1="-2.54" x2="4.064" y2="0" width="0.254" layer="94"/>
-<wire x1="4.064" y1="0" x2="-1.524" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.778" x2="-1.778" y2="1.778" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="1.778" x2="-1.778" y2="3.302" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="3.302" x2="-2.54" y2="3.302" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.778" x2="4.318" y2="1.778" width="0.254" layer="94"/>
-<wire x1="4.318" y1="1.778" x2="4.318" y2="3.302" width="0.254" layer="94"/>
-<wire x1="4.318" y1="3.302" x2="5.08" y2="3.302" width="0.254" layer="94"/>
-<wire x1="2.032" y1="1.016" x2="3.048" y2="1.016" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.508" x2="2.54" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="1.524" width="0.254" layer="94"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
-<pin name="+" x="2.54" y="-5.08" visible="off" length="middle" rot="R90"/>
-<pin name="PAD2" x="5.08" y="2.54" visible="off" length="point" rot="R90"/>
-<pin name="PAD1" x="-2.54" y="2.54" visible="off" length="point" rot="R90"/>
-<text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
 <symbol name="CORTEX_DEBUG" urn="urn:adsk.eagle:symbol:37964/1" library_version="1">
 <description>&lt;h3&gt;Cortex Debug Connector&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
@@ -2491,47 +2463,6 @@ part number 2062-2P from STA</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JST_2MM_MALE" urn="urn:adsk.eagle:component:38321/1" prefix="J" uservalue="yes" library_version="1">
-<description>&lt;h3&gt;JST 2MM MALE RA CONNECTOR&lt;/h3&gt;
-Two pin, compact surface mount connector. Commonly used as a battery input connection point. We really like the solid locking feeling and high current rating on these small connectors. We use these all the time as battery connectors. Mates to single-cell LiPo batteries.
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;Here is the connector we sell at SparkFun:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8612"&gt;JST Right Angle Connector - White&lt;/a&gt; (PRT-08612)&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.sparkfun.com/datasheets/Prototyping/Connectors/JST-Horizontal.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;It was used on these SparkFun products:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11214"&gt;SparkFun MOSFET Power Controller&lt;/a&gt; (PRT-11214)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13777"&gt;SparkFun Battery Babysitter - LiPo Battery Manager&lt;/a&gt; (PRT-13777)&lt;/li&gt;
-&lt;li&gt;And many, many others that required a lipo battery connection.&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="JST_2MM_MALE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JST-2-SMD">
-<connects>
-<connect gate="G$1" pin="+" pad="2"/>
-<connect gate="G$1" pin="-" pad="1"/>
-<connect gate="G$1" pin="PAD1" pad="NC1"/>
-<connect gate="G$1" pin="PAD2" pad="NC2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38042/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-11443"/>
-<attribute name="SF_ID" value="PRT-08612" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CORTEX_DEBUG" urn="urn:adsk.eagle:component:38384/1" prefix="J" library_version="1">
 <description>&lt;h3&gt;Cortex Debug Connector - 10 pin&lt;/h3&gt;
 &lt;p&gt;Supports JTAG debug, Serial Wire debug, and Serial Wire Viewer.
@@ -5963,12 +5894,9 @@ Datasheet</description>
 <part name="D1" library="SparkFun" deviceset="LED" device="0603" value="Yellow">
 <attribute name="DIGIKEY" value="350-4349-2-ND"/>
 </part>
-<part name="POWER_IN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="JST_2MM_MALE" device="" package3d_urn="urn:adsk.eagle:package:38042/1">
-<attribute name="DIGIKEY" value="732-2711-1-ND"/>
-</part>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="U3" library="BC840M-v1" deviceset="BC840M" device="" value="BC840M">
-<attribute name="DIGIKEY" value="1914-BC840MCT-ND"/>
+<attribute name="DIGIKEY" value="1914-BC840CT-ND"/>
 </part>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CORTEX_DEBUG" device="_SMD" package3d_urn="urn:adsk.eagle:package:38289/1">
@@ -6139,10 +6067,6 @@ Output is to 5V leds</text>
 <attribute name="VALUE" x="-35.814" y="26.543" size="1.778" layer="96" rot="R180"/>
 <attribute name="DIGIKEY" x="-38.1" y="22.86" size="3.4798" layer="96" ratio="10" rot="R90" display="off"/>
 </instance>
-<instance part="POWER_IN" gate="G$1" x="-40.64" y="50.8" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-34.798" y="48.26" size="1.778" layer="95" rot="MR90"/>
-<attribute name="DIGIKEY" x="-40.64" y="50.8" size="3.4798" layer="96" ratio="10" rot="MR90" display="off"/>
-</instance>
 <instance part="GND8" gate="1" x="88.9" y="38.1" smashed="yes">
 <attribute name="VALUE" x="86.36" y="35.56" size="1.778" layer="96"/>
 </instance>
@@ -6281,9 +6205,9 @@ Output is to 5V leds</text>
 <attribute name="VALUE" x="-55.88" y="6.096" size="1.778" layer="96" font="vector" align="top-center"/>
 <attribute name="DIGIKEY" x="-55.88" y="7.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J2" gate="G$1" x="-38.1" y="66.04" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-35.56" y="70.866" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="-35.56" y="60.452" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J2" gate="G$1" x="-38.1" y="53.34" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-35.56" y="58.166" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="-35.56" y="47.752" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="S4" gate="1" x="447.04" y="157.48" smashed="yes">
 <attribute name="NAME" x="448.31" y="160.528" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -6295,14 +6219,9 @@ Output is to 5V leds</text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="POWER_IN" gate="G$1" pin="-"/>
-<wire x1="-45.72" y1="50.8" x2="-50.8" y2="50.8" width="0.1524" layer="91"/>
 <label x="-55.88" y="50.8" size="1.778" layer="95" rot="MR180"/>
-<wire x1="-50.8" y1="50.8" x2="-55.88" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="50.8" x2="-50.8" y2="63.5" width="0.1524" layer="91"/>
-<junction x="-50.8" y="50.8"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="-50.8" y1="63.5" x2="-45.72" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="50.8" x2="-45.72" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="GND@3"/>
@@ -6635,14 +6554,9 @@ Output is to 5V leds</text>
 </net>
 <net name="VBAT_RAW" class="0">
 <segment>
-<pinref part="POWER_IN" gate="G$1" pin="+"/>
-<wire x1="-45.72" y1="53.34" x2="-53.34" y2="53.34" width="0.1524" layer="91"/>
 <label x="-55.88" y="53.34" size="1.778" layer="95" rot="MR180"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="-53.34" y1="53.34" x2="-55.88" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="53.34" x2="-53.34" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="66.04" x2="-45.72" y2="66.04" width="0.1524" layer="91"/>
-<junction x="-53.34" y="53.34"/>
+<wire x1="-55.88" y1="53.34" x2="-45.72" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="441.96" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
