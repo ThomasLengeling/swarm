@@ -1,0 +1,14 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"DIGIKEY";"MPN";"OC_FARNELL";"OC_NEWARK";"PACKAGE";"POPULARITY";"PROD_ID";"SUPPLIER";"TP_SIGNAL_NAME";"VALUE";
+"3";"";"CONN_02LOCK_LONGPADS";"1X02_LOCK_LONGPADS";"J3, J4, J5";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";"";"";"";"";
+"1";"";"CONN_02LOCK_LONGPADS";"1X02_LOCK_LONGPADS";"J2";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"S1111EC-02-ND";"";"";"";"";"";"";"";"";"";
+"1";"";"CONN_03LOCK_LONGPADS";"1X03_LOCK_LONGPADS";"J1";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"S1111EC-03-ND";"";"";"";"";"";"";"";"";"";
+"2";"1k";"1KOHM-0603-1/10W-1%";"0603";"R1, R2";"1kΩ resistor";"RNCP0603FTD1K00CT-ND";"";"";"";"";"";"RES-07856";"";"";"1k";
+"2";"22uF";"22UF-0805-6.3V-20%";"0805";"C6, C20";"22µF ceramic capacitors";"490-10511-1-ND";"";"";"";"";"";"CAP-08402";"";"";"22uF";
+"1";"4.7uF";"4.7UF0603";"0603";"C19";"4.7µF ceramic capacitors";"399-3482-1-ND";"";"";"";"";"";"CAP-08280";"";"";"4.7uF";
+"1";"74AHCT2G125";"VSSOP-8_DEVICE";"VSSOP-8";"U5";"Dual bidirectional I2C-bus and SMBus voltage-level translator";"1727-6544-1-ND‎";"PCA9306DC,125";"-";"70R6429";"VSSOP-8";"";"";"NXP";"";"";
+"1";"BC840M";"BC840M";"BC840M";"U3";"";"1914-BC840CT-ND";"";"";"";"";"";"";"";"";"";
+"1";"CORTEX_DEBUG_SMD";"CORTEX_DEBUG_SMD";"SAMTECH_FTSH-105-01";"J7";"Cortex Debug Connector - 10 pin";"SAM1161-05-ND";"";"";"";"";"";"";"";"";"";
+"1";"Green";"LED0603";"LED-0603";"D3";"LEDs";"754-1116-1-ND";"";"";"";"";"";"";"";"";"";
+"1";"MCP1703CB";"MCP1703CB";"SOT23";"IC1";"250 mA, 16V, Low Quiescent Current LDO Regulator";"AP2138N-3.3TRG1DICT-ND";"";"";"";"";"19";"";"";"";"";
+"3";"TPSB1,27";"TPSB1,27";"B1,27";"TP1, TP4, TP5";"TEST PIN";"";"";"";"";"";"0";"";"";"";"";
+"1";"Yellow";"LED0603";"LED-0603";"D1";"LEDs";"350-4349-2-ND";"";"";"";"";"";"";"";"";"";

@@ -5384,10 +5384,13 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k">
 <attribute name="DIGIKEY" value="RNCP0603FTD1K00CT-ND"/>
 </part>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38047/1"/>
-<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38047/1"/>
-<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38047/1"/>
-<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38047/1"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38047/1">
+<attribute name="DIGIKEY" value="S1111EC-02-ND"/>
+</part>
+<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="PTH4" package3d_urn="urn:adsk.eagle:package:38054/1"/>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="PTH4" package3d_urn="urn:adsk.eagle:package:38054/1"/>
+<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="PTH4" package3d_urn="urn:adsk.eagle:package:38054/1"/>
+<part name="P+1" library="SparkFun-PowerSymbols" deviceset="VCC" device="" value="5V"/>
 </parts>
 <sheets>
 <sheet>
@@ -5603,6 +5606,7 @@ Output is to 5V leds</text>
 <instance part="J2" gate="G$1" x="-38.1" y="53.34" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-35.56" y="58.166" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="-35.56" y="47.752" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="DIGIKEY" x="-38.1" y="53.34" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="104.14" y="73.66" smashed="yes" rot="R270">
 <attribute name="VALUE" x="99.314" y="76.2" size="1.778" layer="96" font="vector" rot="R270"/>
@@ -5615,6 +5619,9 @@ Output is to 5V leds</text>
 <instance part="J5" gate="G$1" x="-58.42" y="71.12" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-63.246" y="73.66" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="-52.832" y="73.66" size="1.778" layer="95" font="vector" rot="R270"/>
+</instance>
+<instance part="P+1" gate="G$1" x="-71.12" y="66.04" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-71.12" y="68.834" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -5819,19 +5826,6 @@ Output is to 5V leds</text>
 <wire x1="-53.34" y1="116.84" x2="-40.64" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5V" class="0">
-<segment>
-<wire x1="441.96" y1="35.56" x2="452.12" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="P+3" gate="1" pin="VCC"/>
-<pinref part="U5" gate="A" pin="8"/>
-</segment>
-<segment>
-<wire x1="-53.34" y1="119.38" x2="-45.72" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="P+10" gate="G$1" pin="VCC"/>
-<wire x1="-45.72" y1="119.38" x2="-45.72" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="J1" gate="J$1" pin="3"/>
-</segment>
-</net>
 <net name="STRIP_3V3" class="0">
 <segment>
 <label x="391.16" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -5931,23 +5925,6 @@ Output is to 5V leds</text>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VBAT" class="0">
-<segment>
-<pinref part="P+12" gate="G$1" pin="3.3V"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="30.48" x2="279.4" y2="22.86" width="0.1524" layer="91"/>
-<junction x="279.4" y="30.48"/>
-<wire x1="279.4" y1="30.48" x2="302.26" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VI"/>
-<wire x1="279.4" y1="40.64" x2="279.4" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="63.5" x2="-58.42" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="53.34" x2="-68.58" y2="53.34" width="0.1524" layer="91"/>
-<label x="-68.58" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VBAT_RAW" class="0">
 <segment>
 <label x="-55.88" y="53.34" size="1.778" layer="95" rot="MR180"/>
@@ -5988,57 +5965,10 @@ Output is to 5V leds</text>
 <label x="100.584" y="83.566" size="1.27" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="SCL" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="D6/P027"/>
-<wire x1="79.106" y1="97.454" x2="79.106" y2="83.82" width="0.1524" layer="91"/>
-<label x="78.74" y="83.82" size="1.27" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="PIN_01" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="D1/P105"/>
-<wire x1="69.106" y1="97.454" x2="69.106" y2="83.82" width="0.1524" layer="91"/>
-<label x="68.58" y="83.566" size="1.27" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="G1/P030"/>
-<wire x1="125.106" y1="137.454" x2="134.62" y2="137.454" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="137.454" x2="134.62" y2="137.668" width="0.1524" layer="91"/>
-<label x="129.54" y="137.668" size="1.27" layer="95"/>
-</segment>
-</net>
 <net name="PIN_02" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="E0/P103"/>
-<wire x1="89.106" y1="97.454" x2="89.106" y2="83.82" width="0.1524" layer="91"/>
-<label x="88.392" y="83.82" size="1.27" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="C6/P109"/>
 <wire x1="46.106" y1="108.454" x2="46.106" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="46.106" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
-<label x="30.48" y="109.728" size="1.27" layer="95"/>
-</segment>
-</net>
-<net name="PIN_03" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="E1/P106"/>
-<wire x1="91.106" y1="97.454" x2="91.106" y2="83.82" width="0.1524" layer="91"/>
-<label x="90.678" y="84.074" size="1.27" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="C7/P008"/>
-<wire x1="46.106" y1="106.454" x2="30.48" y2="106.454" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="106.454" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
-<label x="30.48" y="106.934" size="1.27" layer="95"/>
-</segment>
-</net>
-<net name="PIN_04" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="F4/P002"/>
-<wire x1="125.106" y1="112.454" x2="132.08" y2="112.454" width="0.1524" layer="91"/>
-<label x="129.286" y="113.284" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6079,6 +6009,36 @@ Output is to 5V leds</text>
 <label x="134.62" y="38.1" size="1.778" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="43.18" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VBAT" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="-58.42" y1="63.5" x2="-58.42" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="53.34" x2="-71.12" y2="53.34" width="0.1524" layer="91"/>
+<label x="-68.58" y="53.34" size="1.778" layer="95"/>
+<wire x1="-71.12" y1="53.34" x2="-71.12" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="P+12" gate="G$1" pin="3.3V"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="30.48" x2="279.4" y2="22.86" width="0.1524" layer="91"/>
+<junction x="279.4" y="30.48"/>
+<wire x1="279.4" y1="30.48" x2="302.26" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VI"/>
+<wire x1="279.4" y1="40.64" x2="279.4" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="441.96" y1="35.56" x2="452.12" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="P+3" gate="1" pin="VCC"/>
+<pinref part="U5" gate="A" pin="8"/>
+</segment>
+<segment>
+<wire x1="-53.34" y1="119.38" x2="-45.72" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="P+10" gate="G$1" pin="VCC"/>
+<wire x1="-45.72" y1="119.38" x2="-45.72" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="J1" gate="J$1" pin="3"/>
 </segment>
 </net>
 </nets>

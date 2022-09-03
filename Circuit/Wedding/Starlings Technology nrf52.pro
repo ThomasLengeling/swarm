@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/thomas/Documents/BikeSwarm/city-science-bike-swarm/Circuit/Starlings Technology nrf52.brd
+Job           : /Users/sclay/projects/swarm/Circuit/Wedding/Starlings Technology nrf52.brd
 
-Start at      : 13:58:30 (3/14/22)
-End at        : 13:58:32 (3/14/22)
-Elapsed time  : 00:00:00
+Start at      : 12:20:19 (8/20/22)
+End at        : 12:20:36 (8/20/22)
+Elapsed time  : 00:00:15
 
-Signals       :    39   RoutingGrid: 6.25 mil  Layers: 2
-Connections   :   136   predefined:  133 ( 80 Vias )
+Signals       :    28   RoutingGrid: 6 mil  Layers: 2
+Connections   :    52   predefined:  14 ( 0 Vias )
 
-Router memory :   660800
+Router memory :   162520
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
-Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+Time per pass     :  00:00:06  00:00:07  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00
+Number of Ripups  :         0       180         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         5         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0        20         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :         0         3         3         3         3         3
-Vias              :         0         3         1         1         1         1
-Resolution        :    97.8 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        23        36        33        33        33        33        33        33        33        34        34        34        34        34
+Vias              :         0         7        10        10        11        11        11        11         8        10        10        10        10        10
+Resolution        :    71.2 %    96.2 %    90.4 %    90.4 %    90.4 %    90.4 %    90.4 %    90.4 %    90.4 %    92.3 %    92.3 %    92.3 %    92.3 %    92.3 %
 
-Final             : 99.3% finished. Polygons may have fallen apart.
+Final             : 80.8% finished. Polygons may have fallen apart.
