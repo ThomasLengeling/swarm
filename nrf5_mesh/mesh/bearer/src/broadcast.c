@@ -47,6 +47,8 @@
 #define BROADCAST_DEBUG 0
 #endif
 
+#define RADIO_PREAMBLE_LENGTH_LR_EXTRA_BYTES 9
+
 #define USR_SOFTWARE_OVERHEAD_US (APPLICATION_TX_COMPLETE_OVERHEAD_US)
 
 /* Measured software overhead */
@@ -216,11 +218,16 @@ static void radio_irq_handler(void* p_args)
 
 static inline ts_timestamp_t time_required_to_send_us(const packet_t * p_packet, uint8_t channel_count, radio_mode_t radio_mode)
 {
-    static const uint8_t radio_mode_to_us_per_byte[RADIO_MODE_END] =  {8, 4, 32, 8
-                                                            #ifdef NRF52_SERIES
-                                                                           ,4, 128
-                                                            #endif
-                                                                           };
+  static const uint8_t radio_mode_to_us_per_byte[RADIO_MODE_END] = {8,
+                                                                    4,
+                                                                    32,
+                                                                    8
+#ifdef NRF52_SERIES
+                                                                    ,
+                                                                    4,
+                                                                    64
+#endif
+  };
     uint32_t packet_length_in_bytes = BLE_PACKET_OVERHEAD(RADIO_MODE_BLE_1MBIT) + p_packet->header.length;
 #ifdef NRF52_SERIES
     if (radio_mode == RADIO_MODE_BLE_2MBIT)
@@ -228,6 +235,11 @@ static inline ts_timestamp_t time_required_to_send_us(const packet_t * p_packet,
         packet_length_in_bytes += RADIO_PREAMBLE_LENGTH_2MBIT_EXTRA_BYTES;
     }
 #endif
+
+    if (radio_mode == RADIO_MODE_NRF_62K5BIT) {
+      packet_length_in_bytes += RADIO_PREAMBLE_LENGTH_LR_EXTRA_BYTES;
+    }
+
     uint32_t radio_time_per_channel = RADIO_RAMPUP_TIME +
                                       (packet_length_in_bytes * radio_mode_to_us_per_byte[radio_mode]) +
                                       RADIO_DISABLE_TO_DISABLED_DELAY_US;

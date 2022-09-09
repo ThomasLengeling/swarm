@@ -656,6 +656,6 @@ void scanner_config_reset(void)
     uint32_t access_address = BEARER_ACCESS_ADDR_DEFAULT;
     scanner_config_access_addresses_set(&access_address, 1);
 
-    scanner_config_radio_mode_set(RADIO_MODE_BLE_1MBIT);
+    scanner_config_radio_mode_set(RADIO_MODE_NRF_62K5BIT);
     scanner_config_scan_time_set(MS_TO_US(BEARER_SCAN_INT_DEFAULT_MS), MS_TO_US(BEARER_SCAN_WINDOW_DEFAULT_MS));
 }

@@ -151,6 +151,17 @@ void radio_config_config(const radio_config_t * const p_config)
 #endif
 
 #endif
+
+    if (p_config->radio_mode == RADIO_MODE_NRF_62K5BIT)
+
+    {
+      NRF_RADIO->PCNF0 |= (
+
+          ((RADIO_PCNF0_PLEN_LongRange << RADIO_PCNF0_PLEN_Pos) &
+           RADIO_PCNF0_PLEN_Msk) |
+          ((2 << RADIO_PCNF0_CILEN_Pos) & RADIO_PCNF0_CILEN_Msk) |
+          ((3 << RADIO_PCNF0_TERMLEN_Pos) & RADIO_PCNF0_TERMLEN_Msk));
+    }
 }
 
 void radio_config_access_addr_set(const uint32_t access_addr, const uint32_t logical_addr)
