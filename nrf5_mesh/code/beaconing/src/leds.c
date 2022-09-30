@@ -26,7 +26,7 @@ unsigned long currentTime;
 unsigned long loopTime;   // using for profiling/debugging
 unsigned long loopLength; // used for calculated expected latency
 
-bool inSync = false; // True when in sync with another bicycle
+bool inSync = true; // True when in sync with another bicycle
 
 // Keep track of where this bike is in its pulsating interval time
 // This variable is updated with time when the bike is in sync with other bikes
@@ -282,15 +282,16 @@ void ledloop()
 
 void check_in_sync()
 {
-    unsigned long last_sync_elapsed = time_since_lastsync();
-    if (last_sync_elapsed == -1)
-    {
-        inSync = false;
-    }
-    else
-    {
-        inSync = (last_sync_elapsed < 15);
-    }
+  // Turn off 1 player mode, assuming always in sync
+  inSync = true;
+  return;
+
+  unsigned long last_sync_elapsed = time_since_lastsync();
+  if (last_sync_elapsed == -1) {
+    inSync = false;
+  } else {
+    inSync = (last_sync_elapsed < 15);
+  }
 }
 
 int current_phase(void)

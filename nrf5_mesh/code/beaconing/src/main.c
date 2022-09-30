@@ -135,7 +135,7 @@ static void rx_cb(const nrf_mesh_adv_packet_rx_data_t *p_rx_data)
         unsigned long timealive = timealive_duration();
         if (rxTimeAlive > timealive +3)
         {
-            sprintf(msg, " ---> Older node found: %d > me: %d, phase: %d, pattern: %d, color: %d %d %d\n", rxTimeAlive, timealive, remote_phase, remote_pattern, remote_color.r, remote_color.g, remote_color.b);
+            sprintf(msg, " ---> Older node found: %d > me: %d, phase: %d, pattern: %d, color: %x %x %x\n", rxTimeAlive, timealive, remote_phase, remote_pattern, remote_color.r, remote_color.g, remote_color.b);
             __LOG(LOG_SRC_APP, LOG_LEVEL_INFO, msg);
             
             set_updated_timealive(rxTimeAlive);
