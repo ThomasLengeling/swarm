@@ -5323,6 +5323,151 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </deviceset>
 </devicesets>
 </library>
+<library name="EG2208">
+<packages>
+<package name="SW_EG2208">
+<wire x1="-5.2" y1="3" x2="-5.2" y2="-3" width="0.127" layer="51"/>
+<wire x1="-5.2" y1="-3" x2="-2.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-3" x2="0.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-3" x2="5.2" y2="-3" width="0.127" layer="51"/>
+<wire x1="5.2" y1="-3" x2="5.2" y2="3" width="0.127" layer="51"/>
+<wire x1="5.2" y1="3" x2="-5.2" y2="3" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-3" x2="-2.5" y2="-7" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-7" x2="0.5" y2="-7" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-7" x2="0.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="-5.2" y1="3" x2="-5.2" y2="1.4525" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="-3" x2="-5.2" y2="-1.4525" width="0.127" layer="21"/>
+<wire x1="5.2" y1="1.4525" x2="5.2" y2="3" width="0.127" layer="21"/>
+<wire x1="5.2" y1="-3" x2="5.2" y2="-1.4525" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="-3" x2="-2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3" x2="2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-3" x2="5.2" y2="-3" width="0.127" layer="21"/>
+<wire x1="5.2" y1="3" x2="-5.2" y2="3" width="0.127" layer="21"/>
+<wire x1="-6.3825" y1="3.25" x2="-6.3825" y2="-7.25" width="0.05" layer="39"/>
+<wire x1="-6.3825" y1="-7.25" x2="6.3825" y2="-7.25" width="0.05" layer="39"/>
+<wire x1="6.3825" y1="-7.25" x2="6.3825" y2="3.25" width="0.05" layer="39"/>
+<wire x1="6.3825" y1="3.25" x2="-6.3825" y2="3.25" width="0.05" layer="39"/>
+<circle x="-2" y="3.55" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2" y="3.55" radius="0.1" width="0.2" layer="51"/>
+<text x="-6.2825" y="5.45" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.2825" y="5.25" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-2.5" y1="-3" x2="-2.5" y2="-7" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-7" x2="2.5" y2="-7" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-7" x2="2.5" y2="-3" width="0.127" layer="21"/>
+<pad name="1" x="-2" y="1.25" drill="0.93" shape="square"/>
+<pad name="2" x="0" y="1.25" drill="0.93"/>
+<pad name="3" x="2" y="1.25" drill="0.93"/>
+<pad name="4" x="-2" y="-1.25" drill="0.93"/>
+<pad name="5" x="0" y="-1.25" drill="0.93"/>
+<pad name="6" x="2" y="-1.25" drill="0.93"/>
+<pad name="S1" x="-5" y="0" drill="1.51"/>
+<pad name="S2" x="5" y="0" drill="1.51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="EG2208">
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="6.35" size="1.524" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.524" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="2.54" x2="-3.81" y2="2.54" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.81" y="3.175"/>
+<vertex x="-3.81" y="1.905"/>
+<vertex x="-2.54" y="2.54"/>
+</polygon>
+<wire x1="-7.62" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.81" y="0.635"/>
+<vertex x="-3.81" y="-0.635"/>
+<vertex x="-2.54" y="0"/>
+</polygon>
+<wire x1="-7.62" y1="-2.54" x2="-3.81" y2="-2.54" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.81" y="-1.905"/>
+<vertex x="-3.81" y="-3.175"/>
+<vertex x="-2.54" y="-2.54"/>
+</polygon>
+<wire x1="7.62" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="1.905"/>
+<vertex x="3.81" y="3.175"/>
+<vertex x="2.54" y="2.54"/>
+</polygon>
+<wire x1="7.62" y1="0" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="-0.635"/>
+<vertex x="3.81" y="0.635"/>
+<vertex x="2.54" y="0"/>
+</polygon>
+<wire x1="7.62" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="-3.175"/>
+<vertex x="3.81" y="-1.905"/>
+<vertex x="2.54" y="-2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.54" y="1.905"/>
+<vertex x="-2.54" y="3.175"/>
+<vertex x="-1.27" y="3.175"/>
+<vertex x="-1.27" y="-0.635"/>
+<vertex x="-2.54" y="-0.635"/>
+<vertex x="-2.54" y="0.635"/>
+<vertex x="-1.905" y="0.635"/>
+<vertex x="-1.905" y="1.905"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0.635"/>
+<vertex x="2.54" y="-0.635"/>
+<vertex x="1.27" y="-0.635"/>
+<vertex x="1.27" y="3.175"/>
+<vertex x="2.54" y="3.175"/>
+<vertex x="2.54" y="1.905"/>
+<vertex x="1.905" y="1.905"/>
+<vertex x="1.905" y="0.635"/>
+</polygon>
+<pin name="1" x="-12.7" y="2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="-12.7" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="-12.7" y="-2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="12.7" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="5" x="12.7" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="6" x="12.7" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="EG2208" prefix="S">
+<description> &lt;a href="https://pricing.snapeda.com/parts/EG2208/E-Switch/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="EG2208" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SW_EG2208">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 2P2T Sub-miniature Slide Switch "/>
+<attribute name="MF" value="E-Switch"/>
+<attribute name="MP" value="EG2208"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search?q=EG2208&amp;ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5393,11 +5538,11 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </part>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="PTH4" package3d_urn="urn:adsk.eagle:package:38054/1"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="PTH4" package3d_urn="urn:adsk.eagle:package:38054/1"/>
-<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="PTH4" package3d_urn="urn:adsk.eagle:package:38054/1"/>
 <part name="P+1" library="SparkFun-PowerSymbols" deviceset="VCC" device="" value="5V"/>
 <part name="U1" library="MDBT50Q-1MV2" deviceset="MDBT50Q-1MV2" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device="" value="3.3V"/>
+<part name="S1" library="EG2208" deviceset="EG2208" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5595,10 +5740,10 @@ Output is to 5V leds</text>
 <attribute name="VALUE" x="-55.88" y="6.096" size="1.778" layer="96" font="vector" align="top-center"/>
 <attribute name="DIGIKEY" x="-55.88" y="7.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J2" gate="G$1" x="-38.1" y="53.34" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-35.56" y="58.166" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="-35.56" y="47.752" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="DIGIKEY" x="-38.1" y="53.34" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="J2" gate="G$1" x="-88.9" y="66.04" smashed="yes">
+<attribute name="VALUE" x="-91.44" y="61.214" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="-91.44" y="71.628" size="1.778" layer="95" font="vector"/>
+<attribute name="DIGIKEY" x="-88.9" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="53.34" y="50.8" smashed="yes" rot="R270">
 <attribute name="VALUE" x="48.514" y="53.34" size="1.778" layer="96" font="vector" rot="R270"/>
@@ -5608,12 +5753,8 @@ Output is to 5V leds</text>
 <attribute name="VALUE" x="48.514" y="30.48" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="58.928" y="30.48" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="J5" gate="G$1" x="-58.42" y="71.12" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-63.246" y="73.66" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="NAME" x="-52.832" y="73.66" size="1.778" layer="95" font="vector" rot="R270"/>
-</instance>
-<instance part="P+1" gate="G$1" x="-71.12" y="66.04" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-71.12" y="68.834" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="P+1" gate="G$1" x="-33.02" y="81.28" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-33.02" y="84.074" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="U1" gate="G$1" x="58.42" y="119.38" smashed="yes">
 <attribute name="NAME" x="35.56" y="165.862" size="1.778" layer="95"/>
@@ -5625,15 +5766,19 @@ Output is to 5V leds</text>
 <instance part="P+4" gate="G$1" x="104.14" y="167.64" smashed="yes">
 <attribute name="VALUE" x="103.124" y="171.196" size="1.778" layer="96"/>
 </instance>
+<instance part="S1" gate="G$1" x="-53.34" y="66.04" smashed="yes">
+<attribute name="NAME" x="-60.96" y="72.39" size="1.524" layer="95"/>
+<attribute name="VALUE" x="-60.96" y="58.42" size="1.524" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<label x="-55.88" y="50.8" size="1.778" layer="95" rot="MR180"/>
+<label x="-71.12" y="68.58" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="-55.88" y1="50.8" x2="-45.72" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="68.58" x2="-81.28" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="GND@3"/>
@@ -5863,11 +6008,12 @@ Output is to 5V leds</text>
 </net>
 <net name="VBAT_RAW" class="0">
 <segment>
-<label x="-55.88" y="53.34" size="1.778" layer="95" rot="MR180"/>
+<label x="-71.12" y="66.04" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="-55.88" y1="53.34" x2="-45.72" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="-55.88" y1="53.34" x2="-55.88" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="66.04" x2="-81.28" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="66.04" x2="-68.58" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="3"/>
+<wire x1="-68.58" y1="63.5" x2="-66.04" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HEADLAMP_3V3" class="0">
@@ -5942,12 +6088,11 @@ Output is to 5V leds</text>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="63.5" x2="-58.42" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="53.34" x2="-71.12" y2="53.34" width="0.1524" layer="91"/>
-<label x="-68.58" y="53.34" size="1.778" layer="95"/>
-<wire x1="-71.12" y1="53.34" x2="-71.12" y2="66.04" width="0.1524" layer="91"/>
+<label x="-30.48" y="81.28" size="1.778" layer="95"/>
 <pinref part="P+1" gate="G$1" pin="VCC"/>
+<pinref part="S1" gate="G$1" pin="6"/>
+<wire x1="-40.64" y1="63.5" x2="-33.02" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="63.5" x2="-33.02" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+12" gate="G$1" pin="3.3V"/>
